@@ -1,0 +1,9 @@
+[package]
+name = "vim_everywhere"
+version = "0.1.0"
+authors = ["Dirli <dominik.dirmeier@outlook.at>"]
+edition = "2018"
+
+[dependencies]
+inputbot = { git = "https://github.com/obv-mikhail/InputBot" }
+systray = { path = "../systray-rs" }
